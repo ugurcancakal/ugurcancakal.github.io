@@ -1,0 +1,170 @@
+{
+  "basics": {
+    "name": "Ugurcan Cakal",
+    "label": "Software Engineer",
+    "picture": "assets/images/ugurcanCakal.jpg",
+    "email": "info{at}ugurcancakal.com",
+    "website": "https://ugurcancakal.github.io/",
+    "summary": "I'm a self-motivated engineer, currently based in Zürich, with a knack for computers and electronics. I have hands-on experience in hardware-aware software development, especially in areas like machine learning, autonomous robotics, and embedded systems. Adapting to the situation, I can be a strong team player or a one-person army.",
+    "location": {
+      "city": "Zürich",
+      "region": "Switzerland"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "ugurcancakal",
+        "url": "https://www.linkedin.com/in/ugurcancakal/"
+      },
+      {
+        "network": "GitHub",
+        "username": "ugurcancakal",
+        "url": "https://www.github.com/ugurcancakal"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "SynSense AG",
+      "position": "ML Algorithms and Applications Engineer",
+      "website": "https://www.synsense.ai/",
+      "startDate": "2022-07-01",
+      "endDate": "",
+      "summary": "Developed applications and user facing APIs for neuromorphic chips",
+      "highlights": [
+        "Led the implementation of application software support for digital neuromorphic Xylo, and mixed-signal neuromorphic Dynap-SE2 chips. Offline simulation, hardware-in-the loop, SNN training and mapping, sim-to-real.",
+        "Trained and deployed application prototypes targeting various Xylo chip families, some of which are human activity detection with IMU signals, and background noise classification with audio signals.",
+        "Spearheaded the development and maintenance of Rockpool, an open-source python package for developing signal processing applications with spiking neural networks. Currently ranking as the first contributor (~2,000 commits).",
+        "Composed comprehensive user manuals and tutorials and delivered presentations to stakeholders."
+      ]
+    },
+    {
+      "company": "",
+      "position": "Software Engineer (Intern)",
+      "website": "https://www.synsense.ai/",
+      "startDate": "2021-06-01",
+      "endDate": "2022-07-01",
+      "summary": "Started as an internship, continued as a master thesis",
+      "highlights": [
+        "Modeled the jax-backend time efficient custom hardware simulator, simulating VLSI dynamics of Dynap-SE2 chip.",
+        "Improved BPTT training pipeline execution time from 10s of days to 10s of minutes with just-in-time compilation.",
+        "Implemented non-uniform quantization, custom gradient computation, mismatch simulation algorithms to solve hardware mapping problem for analog mixed signal Dynap-SE2 processor.",
+        "Developed an efficient application deployment pipeline which significantly reduced the required effort for an application development: from an entire PhD thesis to an internship project.",
+      ]
+    },
+    {
+      "company": "GOHM",
+      "position": "Machine Learning Engineer (Contract)",
+      "website": "https://gohm.com.tr/",
+      "startDate": "2021-01-01",
+      "endDate": "2021-04-01",
+      "summary": "The first attempt to be a freelancer",
+      "highlights": [
+        "Engineered a deep convolutional neural network application from scratch, enabling efficient processing of low-dimensional RF signals to detect analog device fingerprints for edge inference on the NVIDIA Jetson board."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "METU Amateur Photography Club",
+      "position": "Chair",
+      "website": "http://aft.metu.edu.tr/",
+      "startDate": "2015-01-01",
+      "endDate": "2017-01-01",
+      "summary": "Analog photography, thoughts and discussions",
+      "highlights": [
+        "Organized several workshops, exhibitions, artists talks and tenders."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Middle East Technical University",
+      "area": "Electrical and Electronics Engineering",
+      "studyType": "Masters",
+      "startDate": "2019-09-01",
+      "endDate": "2022-08-22",
+      "gpa": "3.79/4.0",
+      "courses": [
+        "Neurocomputers and Deep Learning",
+        "Applied Parallel Programming on GPU",
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "institution": "Middle East Technical University",
+      "area": "Electrical and Electronics Engineering",
+      "studyType": "Bachelors",
+      "startDate": "2014-09-01",
+      "endDate": "2019-06-01",
+      "gpa": "3.28/4.0",
+      "courses": [
+        "Microprocessors",
+        "Computer Architecture I & II",
+        "Computational Intelligence",
+        "Machine Learning"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "Expert",
+      "keywords": [
+        "Object-Oriented Programming",
+        "Test Driven Development"
+      ]
+    },
+    {
+      "name": "C++",
+      "level": "Expert",
+      "keywords": [
+        "Optimization",
+        "Embedded Systems"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "Expert",
+      "keywords": [
+        "C",
+        "CUDA",
+        "Verilog",
+        "ARM Assembly"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "level": "Expert",
+      "keywords": [
+        "PyTorch",
+        "Jax",
+        "TensorFlow",
+        "sckit-learn"
+      ]
+    },
+    {
+      "name": "Software",
+      "level": "Expert",
+      "keywords": [
+        "unit testing",
+        "Git",
+        "CI&CD"
+      ]
+    },
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "C1"
+    },
+    {
+      "language": "Turkish",
+      "fluency": "Native"
+    },
+    {
+      "language": "German",
+      "fluency": "B1"
+    }
+  ]
+}
