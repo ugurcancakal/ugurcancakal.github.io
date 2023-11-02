@@ -42,21 +42,21 @@ Multi line blockquote with a cite reference:
 ## Tables
 
 | Employee         | Salary |                                                              |
-| --------         | ------ | ------------------------------------------------------------ |
+| ---------------- | ------ | ------------------------------------------------------------ |
 | [John Doe](#)    | $1     | Because that's all Steve Jobs needed for a salary.           |
 | [Jane Doe](#)    | $100K  | For all the blogging she does.                               |
 | [Fred Bloggs](#) | $100M  | Pictures are worth a thousand words, right? So Jane × 1,000. |
 | [Jane Bloggs](#) | $100B  | With hair like that?! Enough said.                           |
 
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|-----------------------------|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=============================|
-| Foot1   | Foot2   | Foot3   |
+| Header1                       | Header2 | Header3 |
+| :---------------------------- | :-----: | ------: |
+| cell1                         |  cell2  |   cell3 |
+| cell4                         |  cell5  |   cell6 |
+| ----------------------------- |
+| cell1                         |  cell2  |   cell3 |
+| cell4                         |  cell5  |   cell6 |
+| ============================= |
+| Foot1                         |  Foot2  |   Foot3 |
 
 ## Definition Lists
 
@@ -110,7 +110,7 @@ Do It Live
 
 ## Anchor element (aka. Link)
 
-This is an example of a [link](http://apple.com "Apple").
+This is an example of a [link](https://apple.com "Apple").
 
 ## Abbreviation element
 

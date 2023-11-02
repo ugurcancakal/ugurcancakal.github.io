@@ -11,7 +11,7 @@ a substitute for the default [Minima](https://github.com/jekyll/minima), with a
 few enhancements thrown in for good measure:
 
 - Clean responsive design with [six customizable skins](#skin)
-- Curriculum Vitæ/Resume layout powered by [JSON data](http://registry.jsonresume.org/)
+- Curriculum Vitæ/Resume layout powered by [JSON data](https://registry.jsonresume.org/)
 - About page layout
 - Site-wide search provided by [Algolia](https://www.algolia.com/) or [Lunr](https://lunrjs.com/).
 - Disqus Comments and Google Analytics support
@@ -47,7 +47,7 @@ below) into your project.
    theme: jekyll-theme-basically-basic
    ```
 
-2. Then run [Bundler](http://bundler.io/) to install the theme gem and dependencies:
+2. Then run [Bundler](https://bundler.io/) to install the theme gem and dependencies:
    
    ```terminal
    bundle install
@@ -72,7 +72,7 @@ for any GitHub-hosted theme.
 ---
 
 **Note:** Your Jekyll site should be viewable immediately at 
-<http://USERNAME.github.io>. If it's not, you can force a rebuild by 
+<https://USERNAME.github.io>. If it's not, you can force a rebuild by 
 **Customizing Your Site** (see below for more details).
 
 If you're hosting several Jekyll based sites under the same GitHub username you 
@@ -179,14 +179,14 @@ to see what's changed since.
 Here's a quick checklist of the important folders/files you'll want to be 
 mindful of:
 
-| Name                   |     |
-| ----                   | --- |
-| `_layouts`             | Replace all. Apply edits if you customized any layouts. |
-| `_includes`            | Replace all. Apply edits if you customized any includes. |
-| `assets`               | Replace all. Apply edits if you customized stylesheets or scripts. |
-| `_sass`                | Replace all. Apply edits if you customized Sass partials. |
-| `_data/theme.yml`      | Safe to keep. Verify that there were no major structural changes or additions. |
-| `_config.yml`          | Safe to keep. Verify that there were no major structural changes or additions. |
+| Name              |                                                                                |
+| ----------------- | ------------------------------------------------------------------------------ |
+| `_layouts`        | Replace all. Apply edits if you customized any layouts.                        |
+| `_includes`       | Replace all. Apply edits if you customized any includes.                       |
+| `assets`          | Replace all. Apply edits if you customized stylesheets or scripts.             |
+| `_sass`           | Replace all. Apply edits if you customized Sass partials.                      |
+| `_data/theme.yml` | Safe to keep. Verify that there were no major structural changes or additions. |
+| `_config.yml`     | Safe to keep. Verify that there were no major structural changes or additions. |
 
 ---
 
@@ -271,12 +271,12 @@ For more configuration options be sure to consult the documentation for:
 This theme comes in six different skins (color variations). To change skins add 
 one of the following to your [`/_data/theme.yml`](_data/theme.yml) file:
 
-| `skin: default` | `skin: night` | `skin: plum` |
-| --- | --- | --- |
+| `skin: default`                                                                                                       | `skin: night`                                                                                                       | `skin: plum`                                                                                                       |
+| --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | ![default-skin](https://cloud.githubusercontent.com/assets/1376749/24115744/c0618c90-0d7a-11e7-8e2d-ec70f9db0c1b.png) | ![night-skin](https://cloud.githubusercontent.com/assets/1376749/24115770/d61127f8-0d7a-11e7-9158-986bee2be8e7.png) | ![plum-skin](https://cloud.githubusercontent.com/assets/1376749/24115778/db523a0e-0d7a-11e7-9452-8692b736d67e.png) |
 
-| `skin: sea` | `skin: soft` | `skin: steel` |
-| --- | --- | --- |
+| `skin: sea`                                                                                                       | `skin: soft`                                                                                                       | `skin: steel`                                                                                                       |
+| ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------- |
 | ![sea-skin](https://cloud.githubusercontent.com/assets/1376749/24115788/e27d818a-0d7a-11e7-8c56-2480e9ae83fb.png) | ![soft-skin](https://cloud.githubusercontent.com/assets/1376749/24115790/e6e548e8-0d7a-11e7-8e2d-d8053e8befd1.png) | ![steel-skin](https://cloud.githubusercontent.com/assets/1376749/24115799/eb2108e8-0d7a-11e7-8cc3-a6f22e4082ee.png) |
 
 ### Google Fonts
@@ -359,7 +359,7 @@ Each menu link's title and URL will be populated based on their `title` and
 ### Pagination
 
 Break up the main listing of posts into smaller lists and display them over 
-multiple pages by [enabling pagination](http://jekyllrb.com/docs/pagination/).
+multiple pages by [enabling pagination](https://jekyllrb.com/docs/pagination/).
 
 1. Include the `jekyll-paginate` plugin in your `Gemfile`.
 
@@ -515,7 +515,7 @@ To enable Disqus comments, add your [Disqus shortname](https://help.disqus.com/c
 ```
 
 Comments are enabled by default and will only appear in production when built 
-with the following [environment value](http://jekyllrb.com/docs/configuration/#specifying-a-jekyll-environment-at-build-time): 
+with the following [environment value](https://jekyllrb.com/docs/configuration/#specifying-a-jekyll-environment-at-build-time): 
 `JEKYLL_ENV=production`
 
 If you don't want to display comments for a particular post you can disable 
@@ -582,10 +582,10 @@ introduction: |
 actions:
   - label: "Learn More"
     icon: github  # references name of svg icon, see full list below
-    url: "http://url-goes-here.com"
+    url: "https://url-goes-here.com"
   - label: "Download"
     icon: download  # references name of svg icon, see full list below
-    url: "http://url-goes-here.com"
+    url: "https://url-goes-here.com"
 
 image:  # URL to a hero image associated with the post (e.g., /assets/page-pic.jpg)
 
@@ -727,19 +727,19 @@ This layout accommodates the same front matter as `layout: page`. It
 leverages a [JSON-based file standard](https://jsonresume.org/schema/) for 
 resume data to conveniently render a curriculum vitæ or resume painlessly.
 
-Simply use JSON Resume's [in-browser resume builder](http://registry.jsonresume.org/) 
+Simply use JSON Resume's [in-browser resume builder](https://registry.jsonresume.org/) 
 to export a JSON file and save to your project as `_data/cv.json`.
 
 ## Images
 
 Suggested image sizes in pixels are as follows:
 
-| Image | Description | Size |
-| ----- | ----------- | ---- |
-| `page.image.path` | Large full-width document image. | Tall images will push content down the page. `1600 x 600` is a good middle-ground size to aim for. |
-| `page.image` | Short-hand for `page.image.path` when used alone (without `thumbnail`, `caption`, or other variables). | Same as `page.image.path` |
-| `page.image.thumbnail` | Small document image used in grid view. | `400 x 200` |
-| `author.picture` | Author page image. | `300 x 300` |
+| Image                  | Description                                                                                            | Size                                                                                               |
+| ---------------------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
+| `page.image.path`      | Large full-width document image.                                                                       | Tall images will push content down the page. `1600 x 600` is a good middle-ground size to aim for. |
+| `page.image`           | Short-hand for `page.image.path` when used alone (without `thumbnail`, `caption`, or other variables). | Same as `page.image.path`                                                                          |
+| `page.image.thumbnail` | Small document image used in grid view.                                                                | `400 x 200`                                                                                        |
+| `author.picture`       | Author page image.                                                                                     | `300 x 300`                                                                                        |
 
 ## Customization
 
@@ -748,7 +748,7 @@ customized in the following two ways.
 
 ### Overriding Includes and Layouts
 
-Theme defaults can be [overridden](http://jekyllrb.com/docs/themes/#overriding-theme-defaults) 
+Theme defaults can be [overridden](https://jekyllrb.com/docs/themes/#overriding-theme-defaults) 
 by placing a file with the same name into your project's `_includes` or 
 `_layouts` directory. For instance:
 
@@ -763,7 +763,7 @@ gem-based theme files.
 
 ### Customizing Sass (SCSS)
 
-To override the default [Sass](http://sass-lang.com/guide) (located in theme's 
+To override the default [Sass](https://sass-lang.com/guide) (located in theme's 
 `_sass` directory), do one of the following:
 
 1. Copy directly from the Basically Basic gem
@@ -817,34 +817,34 @@ performance and flexibility. Said SVGs are located in the `_includes` directory
 and prefixed with `icon-`. Each icon has been sized and designed to fit a 
 `16 x 16` viewbox and optimized with [SVGO](https://github.com/svg/svgo).
 
-| Icon | Filename |
-| --- | --- |
-| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-arrow-left.svg" width="16" height="16"> | icon-arrow-left.svg |
-| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-arrow-right.svg" width="16" height="16"> | icon-arrow-right.svg |
-| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-bitbucket.svg" width="16" height="16"> | icon-bitbucket.svg |
-| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-calendar.svg" width="16" height="16"> | icon-calendar.svg |
-| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-codepen.svg" width="16" height="16"> | icon-codepen.svg |
-| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-download.svg" width="16" height="16"> | icon-download.svg |
-| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-dribbble.svg" width="16" height="16"> | icon-dribbble.svg |
-| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-email.svg" width="16" height="16"> | icon-email.svg |
-| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-facebook.svg" width="16" height="16"> | icon-facebook.svg |
-| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-flickr.svg" width="16" height="16"> | icon-flickr.svg |
-| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-github.svg" width="16" height="16"> | icon-github.svg |
-| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-gitlab.svg" width="16" height="16"> | icon-gitlab.svg |
-| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-googleplus.svg" width="16" height="16"> | icon-googleplus.svg |
-| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-instagram.svg" width="16" height="16"> | icon-instagram.svg |
-| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-lastfm.svg" width="16" height="16"> | icon-lastfm.svg |
-| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-linkedin.svg" width="16" height="16"> | icon-linkedin.svg |
-| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-pdf.svg" width="16" height="16"> | icon-pdf.svg |
-| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-pinterest.svg" width="16" height="16"> | icon-pinterest.svg |
-| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-rss.svg" width="16" height="16"> | icon-rss.svg |
-| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-soundcloud.svg" width="16" height="16"> | icon-soundcloud.svg |
+| Icon                                                                                                                                     | Filename               |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-arrow-left.svg" width="16" height="16">    | icon-arrow-left.svg    |
+| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-arrow-right.svg" width="16" height="16">   | icon-arrow-right.svg   |
+| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-bitbucket.svg" width="16" height="16">     | icon-bitbucket.svg     |
+| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-calendar.svg" width="16" height="16">      | icon-calendar.svg      |
+| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-codepen.svg" width="16" height="16">       | icon-codepen.svg       |
+| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-download.svg" width="16" height="16">      | icon-download.svg      |
+| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-dribbble.svg" width="16" height="16">      | icon-dribbble.svg      |
+| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-email.svg" width="16" height="16">         | icon-email.svg         |
+| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-facebook.svg" width="16" height="16">      | icon-facebook.svg      |
+| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-flickr.svg" width="16" height="16">        | icon-flickr.svg        |
+| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-github.svg" width="16" height="16">        | icon-github.svg        |
+| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-gitlab.svg" width="16" height="16">        | icon-gitlab.svg        |
+| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-googleplus.svg" width="16" height="16">    | icon-googleplus.svg    |
+| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-instagram.svg" width="16" height="16">     | icon-instagram.svg     |
+| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-lastfm.svg" width="16" height="16">        | icon-lastfm.svg        |
+| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-linkedin.svg" width="16" height="16">      | icon-linkedin.svg      |
+| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-pdf.svg" width="16" height="16">           | icon-pdf.svg           |
+| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-pinterest.svg" width="16" height="16">     | icon-pinterest.svg     |
+| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-rss.svg" width="16" height="16">           | icon-rss.svg           |
+| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-soundcloud.svg" width="16" height="16">    | icon-soundcloud.svg    |
 | <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-stackoverflow.svg" width="16" height="16"> | icon-stackoverflow.svg |
-| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-stopwatch.svg" width="16" height="16"> | icon-stopwatch.svg |
-| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-tumblr.svg" width="16" height="16"> | icon-tumblr.svg |
-| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-twitter.svg" width="16" height="16"> | icon-twitter.svg |
-| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-xing.svg" width="16" height="16"> | icon-xing.svg |
-| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-youtube.svg" width="16" height="16"> | icon-youtube.svg |
+| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-stopwatch.svg" width="16" height="16">     | icon-stopwatch.svg     |
+| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-tumblr.svg" width="16" height="16">        | icon-tumblr.svg        |
+| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-twitter.svg" width="16" height="16">       | icon-twitter.svg       |
+| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-xing.svg" width="16" height="16">          | icon-xing.svg          |
+| <img src="https://cdn.rawgit.com/mmistakes/jekyll-theme-basically-basic/master/_includes/icon-youtube.svg" width="16" height="16">       | icon-youtube.svg       |
 
 Fill colors are defined in the `_sass/basically-basic/_icons.scss` partial and 
 set with `.icon-name` where class name matches the corresponding icon.
@@ -858,10 +858,10 @@ For example the Twitter icon is given a fill color of `#1da1f2` like so:
 Alongside the SVG assets, there are icon helper includes to aid in generating 
 social network links.
 
-| Include Parameter | Description                      | Required                |
-| ----------------- | ---------------------------------| ----------------------- |
-| `username`        | Username on given social network | **Required**            |
-| `label`           | Text used for hyperlink | Optional, defaults to `username` |
+| Include Parameter | Description                      | Required                         |
+| ----------------- | -------------------------------- | -------------------------------- |
+| `username`        | Username on given social network | **Required**                     |
+| `label`           | Text used for hyperlink          | Optional, defaults to `username` |
 
 For example, the following `icon-github.html` include:
 
@@ -873,7 +873,7 @@ Will output the following HTML:
 
 ```html
 <a href="https://github.com/jekyll">
-  <span class="icon icon--github"><svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M8 0C3.58 0 0 3.582 0 8c0 3.535 2.292 6.533 5.47 7.59.4.075.547-.172.547-.385 0-.19-.007-.693-.01-1.36-2.226.483-2.695-1.073-2.695-1.073-.364-.924-.89-1.17-.89-1.17-.725-.496.056-.486.056-.486.803.056 1.225.824 1.225.824.714 1.223 1.873.87 2.33.665.072-.517.278-.87.507-1.07-1.777-.2-3.644-.888-3.644-3.953 0-.873.31-1.587.823-2.147-.09-.202-.36-1.015.07-2.117 0 0 .67-.215 2.2.82.64-.178 1.32-.266 2-.27.68.004 1.36.092 2 .27 1.52-1.035 2.19-.82 2.19-.82.43 1.102.16 1.915.08 2.117.51.56.82 1.274.82 2.147 0 3.073-1.87 3.75-3.65 3.947.28.24.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.14.46.55.38C13.71 14.53 16 11.53 16 8c0-4.418-3.582-8-8-8"></path></svg></span>
+  <span class="icon icon--github"><svg viewBox="0 0 16 16" xmlns="https://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M8 0C3.58 0 0 3.582 0 8c0 3.535 2.292 6.533 5.47 7.59.4.075.547-.172.547-.385 0-.19-.007-.693-.01-1.36-2.226.483-2.695-1.073-2.695-1.073-.364-.924-.89-1.17-.89-1.17-.725-.496.056-.486.056-.486.803.056 1.225.824 1.225.824.714 1.223 1.873.87 2.33.665.072-.517.278-.87.507-1.07-1.777-.2-3.644-.888-3.644-3.953 0-.873.31-1.587.823-2.147-.09-.202-.36-1.015.07-2.117 0 0 .67-.215 2.2.82.64-.178 1.32-.266 2-.27.68.004 1.36.092 2 .27 1.52-1.035 2.19-.82 2.19-.82.43 1.102.16 1.915.08 2.117.51.56.82 1.274.82 2.147 0 3.073-1.87 3.75-3.65 3.947.28.24.54.73.54 1.48 0 1.07-.01 1.93-.01 2.19 0 .21.14.46.55.38C13.71 14.53 16 11.53 16 8c0-4.418-3.582-8-8-8"></path></svg></span>
   <span class="label">GitHub</span>
 </a>
 ```
@@ -893,7 +893,7 @@ To test the theme the locally as you make changes to it:
 
 1. `cd` into the root folder of the repo (e.g. `jekyll-theme-basically-basic`).
 2. Run `bundle exec rake preview` and open your browser to 
-   `http://localhost:4000/example/`. 
+   `https://localhost:4000/example/`. 
 
 This starts a Jekyll server using the theme's files and contents of the 
 `example/` directory. As modifications are made, refresh your browser to see 
@@ -944,9 +944,9 @@ grammar, etc.
 
 ### Other:
 
-- [Jekyll](http://jekyllrb.com/)
-- [Susy](http://susy.oddbird.net/)
-- [Breakpoint](http://breakpoint-sass.com/)
+- [Jekyll](https://jekyllrb.com/)
+- [Susy](https://susy.oddbird.net/)
+- [Breakpoint](https://breakpoint-sass.com/)
 
 ---
 
@@ -979,9 +979,9 @@ Icons are distributed under Creative Commons Attribution 3.0 United States (CC B
 
 Basically Basic incorporates photographs from [Unsplash](https://unsplash.com).
 
-Basically Basic incorporates [Susy](http://susy.oddbird.net/),
+Basically Basic incorporates [Susy](https://susy.oddbird.net/),
 Copyright (c) 2017, Miriam Eric Suzanne.
 Susy is distributed under the terms of the [BSD 3-clause "New" or "Revised" License](https://opensource.org/licenses/BSD-3-Clause).
 
-Basically Basic incorporates [Breakpoint](http://breakpoint-sass.com/).
-Breakpoint is distributed under the terms of the [MIT/GPL Licenses](http://opensource.org/licenses/MIT).
+Basically Basic incorporates [Breakpoint](https://breakpoint-sass.com/).
+Breakpoint is distributed under the terms of the [MIT/GPL Licenses](https://opensource.org/licenses/MIT).

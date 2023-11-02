@@ -136,10 +136,8 @@
 ///   .foo {
 ///     width: susy-span(3 at 3 of (1 2 3 5 8));
 ///   }
-@function susy-span(
-  $span,
-  $config: ()
-) {
+@function susy-span($span,
+  $config: ()) {
   $output: susy-compile($span, $config);
 
   @if map-get($output, 'span') {
@@ -147,8 +145,7 @@
   }
 
   $actual: '[#{type-of($span)}] `#{inspect($span)}`';
-  @return _susy-error(
-    'Unable to determine span value from #{$actual}.',
+  @return _susy-error('Unable to determine span value from #{$actual}.',
     'susy-span');
 }
 
@@ -196,10 +193,8 @@
 ///     padding: gutter(of 6) / 2;
 ///   }
 ///
-@function susy-gutter(
-  $context: susy-get('columns'),
-  $config: ()
-) {
+@function susy-gutter($context: susy-get('columns'),
+  $config: ()) {
   $context: susy-compile($context, $config, 'context-only');
 
   @return su-call('su-gutter', $context);
@@ -246,10 +241,8 @@
 /// @example scss - Return a nested segment of asymmetrical grid
 ///   $context: susy-slice(3 at 3 of (1 2 3 5 8));
 ///   /* $context: #{$context}; */
-@function susy-slice(
-  $span,
-  $config: ()
-) {
+@function susy-slice($span,
+  $config: ()) {
   $span: susy-compile($span, $config);
 
   @return su-call('su-slice', $span);
@@ -274,10 +267,10 @@
 /// applying our functions only where you really need grid math.
 /// Read the [intro article by OddBird][welcome] for more details.
 ///
-/// [welcome]: http://oddbird.net/2017/06/28/susy3/
+/// [welcome]: https://oddbird.net/2017/06/28/susy3/
 ///
 /// @group b-api
-/// @link http://oddbird.net/2017/06/28/susy3/ Article: Welcome to Susy3
+/// @link https://oddbird.net/2017/06/28/susy3/ Article: Welcome to Susy3
 ///
 /// @example scss - floats
 ///   .float {

@@ -159,9 +159,9 @@
     page-break-inside: avoid;
   }
 
-  h1 + p,
-  h2 + p,
-  h3 + p {
+  h1+p,
+  h2+p,
+  h3+p {
     page-break-before: avoid;
   }
 
@@ -176,7 +176,7 @@
     word-wrap: break-word;
   }
 
-  a[href^='http://']::after,
+  a[href^='https://']::after,
   a[href^='https://']::after,
   a[href^='ftp://']::after {
     font-size: 80%;
@@ -235,7 +235,7 @@
     color: #000;
   }
 
-/*
+  /*
    Hide the following elements on print
    ========================================================================== */
 
