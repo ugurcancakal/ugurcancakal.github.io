@@ -49,7 +49,7 @@
         "Modeled the jax-backend time efficient custom hardware simulator, simulating VLSI dynamics of Dynap-SE2 chip.",
         "Improved BPTT training pipeline execution time from 10s of days to 10s of minutes with just-in-time compilation.",
         "Implemented non-uniform quantization, custom gradient computation, mismatch simulation algorithms to solve hardware mapping problem for analog mixed signal Dynap-SE2 processor.",
-        "Developed an efficient application deployment pipeline which significantly reduced the required effort for an application development: from an entire PhD thesis to an internship project.",
+        "Developed an efficient application deployment pipeline which significantly reduced the required effort for an application development: from an entire PhD thesis to an internship project."
       ]
     },
     {
@@ -151,7 +151,7 @@
         "Git",
         "CI&CD"
       ]
-    },
+    }
   ],
   "languages": [
     {
